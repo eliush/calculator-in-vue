@@ -46,6 +46,12 @@ export default {
       },
         operator: function(e) {
             this.message = this.message+ e.target.value;
+        },
+	results: function(){
+            this.message = eval(this.message);
+        },
+        clear: function(){
+            this.message = '';
         }
     },            
 }
