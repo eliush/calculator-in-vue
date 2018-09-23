@@ -57,11 +57,18 @@ export default {
 }
 </script>
 <style scoped>
-  div input[type='button'], button {
-	width: 50px;
-	height: 50px;
+#cal{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+div input[type='button'], button {
+    width: 50px;
+    height: 50px;
     margin: 2px 0;
     background-color: rgb(43, 189, 226);
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 #input{
     width: 209px;
